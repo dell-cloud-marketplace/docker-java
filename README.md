@@ -1,4 +1,4 @@
 docker-java
 ===========
 
-Base Java 7 image
+Base Java images
