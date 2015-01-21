@@ -1,14 +1,21 @@
 docker-java
 ===========
 
-Base Java 7 image
+This image installs Java (Oracle JDK), a concurrent, class-based, object-oriented language specifically designed to have as few implementation dependencies as possible.
+This is a basic Java image for dependent images such as [dell/tomcat](https://github.com/dell-cloud-marketplace/docker-tomcat)
 
-Based on https://registry.hub.docker.com/u/tifayuki/java/
 
-From this folder, build as:
+## Components
+The software stack comprises the following components:
 
-```no-highlight
-docker build -t dell/java-base-7 .
-```
+Name          | Version    | Description
+--------------|------------|------------------------------
+Ubuntu        | Trusty     | Operating system
+Java          | 7          | Java Platform (Oracle JDK)
 
-More to follow.
+
+## Reference
+
+### Image Details
+
+Based on  | [https://registry.hub.docker.com/u/tifayuki/java/](https://registry.hub.docker.com/u/tifayuki/java/) 
